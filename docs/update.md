@@ -1,3 +1,31 @@
+## v1.15.1(~~v1.15.0~~)
+### 2020/04/10
+- 修改
+    - 更新开发文档
+    - 合并Gitee [PR-10](https://gitee.com/yadong.zhang/JustAuth/pulls/10)，集成京东登录
+    - 合并Gitee [PR-14](https://gitee.com/yadong.zhang/JustAuth/pulls/14)，修改帮助文档，加入JA的使用者信息
+    - 合并Github [PR-69](https://github.com/justauth/JustAuth/pull/69)，升级fastjson的最新版本
+    - 解决使用apache-httpclient时的403bug，升级simple-http，感谢QQ群的`不瘦十斤不改名字`反馈该问题
+    - 修复其他一些问题
+
+【声明】：由于本人的失误，发布了一个错误的版本（1.15.0），目前1.15.0已发布，但是请不要使用，请直接升级到`1.15.1`。
+
+给各位造成的不便，深表歉意。
+    
+## v1.14.0
+### 2020/03/17
+- 修改
+    - 合并[PR-59](https://github.com/justauth/JustAuth/pull/59)，抽取HTTP，具体实现交给开发者，解耦 hutool-http，开发者可以视自己项目的依赖决定使用何种HTTP方式。详情请参考：https://github.com/xkcoding/simple-http
+    - 合并[PR-65](https://github.com/justauth/JustAuth/pull/65)，修改错误文案
+    - 修复其他一些问题
+    
+## v1.14.0
+### 2020/03/17
+- 修改
+    - 合并[PR-59](https://github.com/justauth/JustAuth/pull/59)，抽取HTTP，具体实现交给开发者，解耦 hutool-http，开发者可以视自己项目的依赖决定使用何种HTTP方式。详情请参考：https://github.com/xkcoding/simple-http
+    - 合并[PR-65](https://github.com/justauth/JustAuth/pull/65)，修改错误文案
+    - 修复其他一些问题
+
 ## v1.13.2
 ### 2019/12/24
 - 新增
